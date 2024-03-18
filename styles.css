@@ -140,3 +140,18 @@ nav a {
     align-items: center;
     margin-top:20px;
 }
+
+@media screen and (max-width:800px) {
+    .hideonmobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px){
+    .hideonmobile{
+        display: none;
+    }
+    .sidebar{
+        width: 100%;
+    }
+}
