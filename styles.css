@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav h2 {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: rubik;
+    color: black;
+    gap: 20px;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: orange;
+    margin-right: 10px;
+    font-family: rubik;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    margin: auto;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+}
+
+.left_content
+{
+    display: inline-block;
+}
+
+.left_content h3 {
+    font-weight: 800;
+    font-family: rubik;
+    font-size: 40px;
+    width: 50%;
+}
+
+.left_content p {
+    font-size: 17px;
+    color: grey;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.button-class {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.button-class p {
+    font-family: rubik;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.502);
+}
+
+.button-01 {
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    box-shadow: #fff 50px 50px 100px 0px, #000 4px 4px 0 1px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 5px 10px 0;
+    overflow: visible;
+    padding: 13px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: rubik;
+}
