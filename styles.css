@@ -65,7 +65,7 @@ nav a {
     font-weight: 800;
     font-family: rubik;
     font-size: 40px;
-    width: 50%;
+    width: 55%;
 }
 
 .left_content p {
@@ -152,16 +152,35 @@ nav a {
     .bar-icon{
         display: block;
     }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content img{
+        width: 350px;
+        height: 350px;
+    }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:360px){
     .hideonmobile{
         display: none;
+    }
     .bar-icon{
         display: block;
     }
-    }
     .sidebar{
         width: 100%;
+    }
+    .content h3{
+        font-size: 35px;
+        width: 100%;
+    }
+    .button-01{
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .button-01 p{
+        font-size: 12px;
     }
 }
