@@ -141,15 +141,25 @@ nav a {
     margin-top:20px;
 }
 
+.bar-icon{
+    display: none;
+}
+
 @media screen and (max-width:800px) {
     .hideonmobile{
         display: none;
+    }
+    .bar-icon{
+        display: block;
     }
 }
 
 @media screen and (max-width:320px){
     .hideonmobile{
         display: none;
+    .bar-icon{
+        display: block;
+    }
     }
     .sidebar{
         width: 100%;
