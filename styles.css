@@ -104,3 +104,30 @@ nav a {
     vertical-align: middle;
     font-family: rubik;
 }
+
+.sidebar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 999;
+    display: none;
+}
+
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .login-buttons{
+    display: flex;
+    flex-direction: column;
+}
