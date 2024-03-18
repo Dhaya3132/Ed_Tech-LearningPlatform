@@ -122,12 +122,21 @@ nav a {
     display: none;
 }
 
+.sidebar .xmark{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .sidebar ul{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .sidebar .login-buttons{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
 }
