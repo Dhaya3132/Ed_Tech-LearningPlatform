@@ -237,9 +237,61 @@ padding: 10px;
 
 }
 
+/* responsive for mobile-l 420px */
+@media screen and (max-width:430px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .course h2{
+        font-size: 45px;
+    }
+
+    .card{
+        width: 400px;
+        height: 250px;
+    }
+
+    .card img{
+        width: 395px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .course h2{
+        font-size: 40px;
+    }
+
+    .card{
+        width: 330px;
+        height: 200px;
+    }
+
+    .card img{
+        width: 315px;
+        height: 140px;
+    }
+}
+
+
 
 /* responsive for mobile 360px */
-@media screen and (max-width:360px){
+@media screen and (max-width:325px){
     .hideonmobile{
         display: none;
     }
@@ -260,5 +312,20 @@ padding: 10px;
     .button-01 p{
         font-size: 12px;
     }
+    .course h2{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 290px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .card img{
+        width: 250px;
+        height: 130px;
+    }
+
 }
 
