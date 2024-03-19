@@ -46,6 +46,21 @@
         width: 430px;
         height: 200px;
     }
+    .whyus{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px 40px 10px;
+    }
+    .whyus h3{
+        width: 100%;
+    }
+    .whyus .title-para{
+        width: 700px;
+    }
+    .parent{
+        margin-top: 30px;
+    }
+
 
 }
 
@@ -73,6 +88,26 @@
         width: 395px;
         height: 190px;
     }
+    .whyus{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px 40px 10px;
+    }
+    .whyus h3{
+        width: 300px;
+    }
+    .whyus .title-para{
+        width: 300px;
+    }
+    .parent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .block p{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -97,6 +132,26 @@
     .card img{
         width: 315px;
         height: 140px;
+    }
+    .whyus{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px 40px 10px;
+    }
+    .whyus h3{
+        width: 300px;
+    }
+    .whyus .title-para{
+        width: 300px;
+    }
+    .parent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .block p{
+        width: 300px;
     }
 }
 
@@ -147,6 +202,26 @@
     }
     .course{
         width: 100%;
+    }
+    .whyus{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px 40px 10px;
+    }
+    .whyus h3{
+        width: 300px;
+    }
+    .whyus .title-para{
+        width: 300px;
+    }
+    .parent
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .block p{
+        width: 300px;
     }
 
 }
