@@ -141,7 +141,7 @@ nav a {
     margin-top:20px;
 }
 
-.bar-icon{
+.login-buttons .bar-icon{
     display: none;
 }
 
@@ -183,4 +183,39 @@ nav a {
     .button-01 p{
         font-size: 12px;
     }
+}
+
+.course{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.ourcourses{
+    font-size: 65px;
+    font-weight: bold;
+    color: rgba(255, 166, 0, 0.264);
+    text-align: center;
+}
+
+.cards
+{
+display: flex;
+justify-content: center;
+gap: 50px;
+margin-top: 20px;
+padding: 10px;
+}
+
+.card{
+    border: 2px solid black;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 3px 0px 3px 0px;
+}
+
+.card-para{
+    margin: 3px 0px 3px 0px;
 }
