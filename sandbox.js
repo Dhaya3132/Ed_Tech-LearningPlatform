@@ -1,4 +1,4 @@
-const bar_icon = document.querySelector('.bar-icon');
+const bar_icon = document.querySelector('#bar-icon');
 const sidebar = document.querySelector('.sidebar');
 const xmark = document.querySelector('.xmark');
 

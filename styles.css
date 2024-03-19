@@ -141,48 +141,8 @@ nav a {
     margin-top:20px;
 }
 
-.login-buttons .bar-icon{
+.login-buttons i{
     display: none;
-}
-
-@media screen and (max-width:800px) {
-    .hideonmobile{
-        display: none;
-    }
-    .bar-icon{
-        display: block;
-    }
-    .content{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .content img{
-        width: 350px;
-        height: 350px;
-    }
-}
-
-@media screen and (max-width:360px){
-    .hideonmobile{
-        display: none;
-    }
-    .bar-icon{
-        display: block;
-    }
-    .sidebar{
-        width: 100%;
-    }
-    .content h3{
-        font-size: 35px;
-        width: 100%;
-    }
-    .button-01{
-        padding: 8px 13px;
-        font-size: 12px;
-    }
-    .button-01 p{
-        font-size: 12px;
-    }
 }
 
 .course{
@@ -210,6 +170,11 @@ padding: 10px;
     border: 2px solid black;
 }
 
+.card img{
+    width: 250px;
+    height: 150px;
+}
+
 .card-text{
     font-weight: bold;
     font-size: 18px;
@@ -219,3 +184,81 @@ padding: 10px;
 .card-para{
     margin: 3px 0px 3px 0px;
 }
+
+
+/* responsive for tablet */
+@media screen and (max-width:800px) {
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .left_content{
+        text-align: center;
+    }
+
+    .left_content h3{
+        /* text-align: center; */
+        width: 100%;
+    }
+
+    .button-class{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card{
+        width: 450px;
+        height: 300px;
+    }
+
+    .card img{
+        width: 430px;
+        height: 200px;
+    }
+
+}
+
+
+/* responsive for mobile 360px */
+@media screen and (max-width:360px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .content h3{
+        font-size: 35px;
+        width: 100%;
+    }
+    .button-01{
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .button-01 p{
+        font-size: 12px;
+    }
+}
+
