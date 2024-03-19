@@ -1,0 +1,153 @@
+/* responsive for tablet */
+@media screen and (max-width:800px) {
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .content img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .left_content{
+        text-align: center;
+    }
+
+    .left_content h3{
+        /* text-align: center; */
+        width: 100%;
+    }
+
+    .button-class{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card{
+        width: 450px;
+        height: 300px;
+    }
+
+    .card img{
+        width: 430px;
+        height: 200px;
+    }
+
+}
+
+/* responsive for mobile-l 420px */
+@media screen and (max-width:430px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .course h2{
+        font-size: 45px;
+    }
+
+    .card{
+        width: 400px;
+        height: 250px;
+    }
+
+    .card img{
+        width: 395px;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .course h2{
+        font-size: 40px;
+    }
+
+    .card{
+        width: 330px;
+        height: 200px;
+    }
+
+    .card img{
+        width: 315px;
+        height: 140px;
+    }
+}
+
+
+
+/* responsive for mobile 360px */
+@media screen and (max-width:325px){
+    .hideonmobile{
+        display: none;
+    }
+    #bar-icon{
+        display: block;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .content img{
+        width: 320px;
+    }
+    .content h3{
+        font-size: 35px;
+        width: 100%;
+    }
+    .button-01{
+        padding: 8px 13px;
+        font-size: 12px;
+    }
+    .button-01 p{
+        font-size: 12px;
+    }
+    .course h2{
+        font-size: 30px;
+    }
+
+    .card{
+        width: 290px;
+        height: 180px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card img{
+        width: 250px;
+        height: 130px;
+    }
+    .course{
+        width: 100%;
+    }
+
+}
+
