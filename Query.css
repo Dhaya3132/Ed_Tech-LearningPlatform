@@ -60,6 +60,15 @@
     .parent{
         margin-top: 30px;
     }
+    .certificate{
+        width: 250px;
+        height: 220px;
+    }
+    .special{
+        width: 520px;
+        height: 220px;
+    }
+
 
 
 }
@@ -108,6 +117,39 @@
     .block p{
         width: 300px;
     }
+    .feature_section{
+        padding: 20px;
+    }
+    .special{
+        width: 250px;
+        height: 200px;
+    }
+    .special h5{
+        font-size: 20px;
+    }
+    .special button{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .certificate{
+        width: 250px;
+        height: 200px;
+    }
+    .certificate img{
+        width: 40px;
+        height: 40px;
+    }
+    .certificate p{
+        font-size: 15px;
+    }
+    .row-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -152,6 +194,39 @@
     }
     .block p{
         width: 300px;
+    }
+    .feature_section{
+        padding: 20px;
+    }
+    .special{
+        width: 250px;
+        height: 200px;
+    }
+    .special h5{
+        font-size: 20px;
+    }
+    .special button{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .certificate{
+        width: 250px;
+        height: 200px;
+    }
+    .certificate img{
+        width: 40px;
+        height: 40px;
+    }
+    .certificate p{
+        font-size: 15px;
+    }
+    .row-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -222,6 +297,39 @@
     }
     .block p{
         width: 300px;
+    }
+    .feature_section{
+        padding: 20px;
+    }
+    .special{
+        width: 250px;
+        height: 200px;
+    }
+    .special h5{
+        font-size: 20px;
+    }
+    .special button{
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .certificate{
+        width: 250px;
+        height: 200px;
+    }
+    .certificate img{
+        width: 40px;
+        height: 40px;
+    }
+    .certificate p{
+        font-size: 15px;
+    }
+    .row-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row-2{
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
