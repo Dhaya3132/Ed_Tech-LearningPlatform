@@ -241,11 +241,12 @@ p {
 .div4 {
     grid-area: 2 / 2 / 3 / 3;
 }
-.feature_section{
+
+.feature_section {
     padding: 40px;
 }
 
-.special{
+.special {
     background-color: rgba(255, 166, 0, 0.813);
     width: 520px;
     height: 200px;
@@ -254,19 +255,20 @@ p {
     padding: 20px;
 }
 
-.special h5{
+.special h5 {
     font-size: 30px;
     font-weight: bold;
     color: white;
-    
+
 }
 
-.special h6{
+.special h6 {
     font-size: 25px;
     color: white;
     font-weight: 700;
 }
-.special button{
+
+.special button {
     padding: 10px;
     border-radius: 30px;
     border: none;
@@ -277,14 +279,14 @@ p {
     color: white;
 }
 
-.row-1{
+.row-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.certificate{
+.certificate {
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid rgba(0, 0, 0, 0.224);
@@ -296,24 +298,105 @@ p {
     padding: 20px;
 }
 
-.certificate img{
+.certificate img {
     width: 65px;
     height: 65px;
 }
 
-.certificate h5{
+.certificate h5 {
     font-size: 20px;
 }
 
-.certificate p{
+.certificate p {
     font-size: 15px;
     color: rgba(128, 128, 128, 0.521);
 }
 
-.row-2{
+.row-2 {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+
+.row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.row-4{
+    width: 55%;
+}
+
+.row-4 h3{
+    font-size: 35px;
+    font-weight: bolder;
+    width: 55%;
+}
+.row-4 p{
+    font-size: 18px;
+    color: lightgray;
+    width: 55%;
+}
+.row-4 ul{
+    list-style: none;
+    color: black;
+    width: 55%;
+    padding: 0px 0px 0px 0px;
+}
+
+.row-4 li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+.row-4 ul li p{
+    color: black;
+    margin: 0px;
+    font-weight: bold;
+
+}
+
+.row-5 img{
+    height: 450px;
+    width: 450px;
+}
+
+footer
+{
+    background-color: orange;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+footer h5{
+    color: black;
+    font-size: 35px;
+    padding: 40px 0px 10px 0px;
+    font-weight: bold;
+}
+
+footer span{
+    color: white;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    list-style: none;
+    gap: 20px;
 }
