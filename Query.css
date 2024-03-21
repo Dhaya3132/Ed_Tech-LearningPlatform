@@ -1,35 +1,38 @@
 /* responsive for tablet */
 @media screen and (max-width:800px) {
-    .hideonmobile{
+    .hideonmobile {
         display: none;
     }
-    #bar-icon{
+
+    #bar-icon {
         display: block;
     }
-    .content{
+
+    .content {
         display: flex;
         flex-direction: column-reverse;
     }
-    .content img{
+
+    .content img {
         width: 350px;
         height: 350px;
     }
 
-    .left_content{
+    .left_content {
         text-align: center;
     }
 
-    .left_content h3{
+    .left_content h3 {
         /* text-align: center; */
         width: 100%;
     }
 
-    .button-class{
+    .button-class {
         display: flex;
         justify-content: center;
     }
 
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -37,277 +40,351 @@
         width: 100%;
     }
 
-    .card{
+    .card {
         width: 450px;
         height: 300px;
     }
 
-    .card img{
+    .card img {
         width: 430px;
         height: 200px;
     }
-    .whyus{
+
+    .whyus {
         display: flex;
         flex-direction: column;
         padding: 40px 10px 40px 10px;
     }
-    .whyus h3{
+
+    .whyus h3 {
         width: 100%;
     }
-    .whyus .title-para{
+
+    .whyus .title-para {
         width: 700px;
     }
-    .parent{
+
+    .parent {
         margin-top: 30px;
     }
-    .feature_section{
+
+    .feature_section {
         padding: 10px;
     }
-    .certificate{
+
+    .certificate {
         width: 250px;
         height: 220px;
     }
-    .special{
+
+    .special {
         width: 520px;
         height: 220px;
     }
-    .row-3{
+
+    .row-3 {
         display: flex;
         padding: 0px;
         margin-top: 40px;
     }
 
-    .row-4 h3{
+    .row-4 h3 {
         font-size: 30px;
         width: 70%;
     }
-    .row-4 p{
+
+    .row-4 p {
         width: 80%;
     }
 
-    .row-4{
+    .row-4 {
         width: 50%;
     }
-    .row-5 img{
+
+    .row-5 img {
         width: 300px;
         height: 300px;
     }
-    .row-4 ul li p{
+
+    .row-4 ul li p {
         font-size: 16px;
     }
-    footer{
+
+    footer {
         margin-top: 35px;
     }
 
 }
 
 /* responsive for mobile-l 420px */
-@media screen and (max-width:430px){
-    .hideonmobile{
+@media screen and (max-width:430px) {
+    .hideonmobile {
         display: none;
     }
-    #bar-icon{
+
+    #bar-icon {
         display: block;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .course h2{
+
+    .course h2 {
         font-size: 45px;
     }
 
-    .card{
+    .card {
         width: 400px;
         height: 250px;
     }
 
-    .card img{
+    .card img {
         width: 395px;
         height: 190px;
     }
-    .whyus{
+
+    .whyus {
         display: flex;
         flex-direction: column;
         padding: 40px 10px 40px 10px;
     }
-    .whyus h3{
+
+    .whyus h3 {
         width: 300px;
     }
-    .whyus .title-para{
+
+    .whyus .title-para {
         width: 300px;
     }
-    .parent
-    {
+
+    .parent {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
-    .block p{
+
+    .block p {
         width: 300px;
     }
-    .feature_section{
+
+    .feature_section {
         padding: 20px;
     }
-    .special{
+
+    .special {
         width: 250px;
         height: 200px;
     }
-    .special h5{
+
+    .special h5 {
         font-size: 20px;
     }
-    .special button{
+
+    .special button {
         padding: 10px;
         margin-top: 20px;
     }
-    .certificate{
+
+    .certificate {
         width: 250px;
         height: 200px;
     }
-    .certificate img{
+
+    .certificate img {
         width: 40px;
         height: 40px;
     }
-    .certificate p{
+
+    .certificate p {
         font-size: 15px;
     }
-    .row-1{
+
+    .row-1 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-2{
+
+    .row-2 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-3{
+
+    .row-3 {
         display: flex;
         flex-direction: column;
     }
-    .row-4{
+
+    .row-4 {
         width: 100%;
         padding: 10px;
     }
-    .row-4 h3{
+
+    .row-4 h3 {
         font-size: 30px;
         width: 300px;
     }
-    .row-4 p{
-         width: 400px;
+
+    .row-4 p {
+        width: 400px;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
-@media screen and (max-width:380px){
-    .hideonmobile{
+@media screen and (max-width:380px) {
+    .hideonmobile {
         display: none;
     }
-    #bar-icon{
+
+    #bar-icon {
         display: block;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .course h2{
+
+    .course h2 {
         font-size: 40px;
     }
 
-    .card{
+    .card {
         width: 330px;
         height: 200px;
     }
 
-    .card img{
+    .card img {
         width: 315px;
         height: 140px;
     }
-    .whyus{
+
+    .whyus {
         display: flex;
         flex-direction: column;
         padding: 40px 10px 40px 10px;
     }
-    .whyus h3{
+
+    .whyus h3 {
         width: 300px;
     }
-    .whyus .title-para{
+
+    .whyus .title-para {
         width: 300px;
     }
-    .parent
-    {
+
+    .parent {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
-    .block p{
+
+    .block p {
         width: 300px;
     }
-    .feature_section{
+
+    .feature_section {
         padding: 20px;
     }
-    .special{
+
+    .special {
         width: 250px;
         height: 200px;
     }
-    .special h5{
+
+    .special h5 {
         font-size: 20px;
     }
-    .special button{
+
+    .special button {
         padding: 10px;
         margin-top: 20px;
     }
-    .certificate{
+
+    .certificate {
         width: 250px;
         height: 200px;
     }
-    .certificate img{
+
+    .certificate img {
         width: 40px;
         height: 40px;
     }
-    .certificate p{
+
+    .certificate p {
         font-size: 15px;
     }
-    .row-1{
+
+    .row-1 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-2{
+
+    .row-2 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-4 p{
+
+    .row-4 p {
         width: 350px;
+    }
+
+    .signin-image {
+        display: none;
+    }
+
+    .SignUp-button {
+        padding: 8px 8px 8px 8px;
+        font-size: 14px;
+    }
+    .signin-title h4{
+        font-size: 24px;
     }
 }
 
 
 
 /* responsive for mobile 360px */
-@media screen and (max-width:325px){
-    .hideonmobile{
+@media screen and (max-width:325px) {
+    .hideonmobile {
         display: none;
     }
-    #bar-icon{
+
+    #bar-icon {
         display: block;
     }
-    .sidebar{
+
+    .sidebar {
         width: 100%;
     }
-    .content img{
+
+    .content img {
         width: 320px;
     }
-    .content h3{
+
+    .content h3 {
         font-size: 35px;
         width: 100%;
     }
-    .button-01{
+
+    .button-01 {
         padding: 8px 13px;
         font-size: 12px;
     }
-    .button-01 p{
+
+    .button-01 p {
         font-size: 12px;
     }
-    .course h2{
+
+    .course h2 {
         font-size: 30px;
     }
 
-    .card{
+    .card {
         width: 290px;
         height: 180px;
         margin: auto;
@@ -317,76 +394,104 @@
         align-items: center;
     }
 
-    .card img{
+    .card img {
         width: 250px;
         height: 130px;
     }
-    .course{
+
+    .course {
         width: 100%;
     }
-    .whyus{
+
+    .whyus {
         display: flex;
         flex-direction: column;
         padding: 40px 10px 40px 10px;
     }
-    .whyus h3{
+
+    .whyus h3 {
         width: 300px;
     }
-    .whyus .title-para{
+
+    .whyus .title-para {
         width: 300px;
     }
-    .parent
-    {
+
+    .parent {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
-    .block p{
+
+    .block p {
         width: 300px;
     }
-    .feature_section{
+
+    .feature_section {
         padding: 20px;
     }
-    .special{
+
+    .special {
         width: 250px;
         height: 200px;
     }
-    .special h5{
+
+    .special h5 {
         font-size: 20px;
     }
-    .special button{
+
+    .special button {
         padding: 10px;
         margin-top: 20px;
     }
-    .certificate{
+
+    .certificate {
         width: 250px;
         height: 200px;
     }
-    .certificate img{
+
+    .certificate img {
         width: 40px;
         height: 40px;
     }
-    .certificate p{
+
+    .certificate p {
         font-size: 15px;
     }
-    .row-1{
+
+    .row-1 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-2{
+
+    .row-2 {
         display: flex;
         flex-wrap: wrap;
     }
-    .row-4 p{
+
+    .row-4 p {
         width: 300px;
     }
-    footer{
+
+    footer {
         width: 320px;
     }
-    .footer-section ul{
+
+    .footer-section ul {
         font-size: 15px;
         padding: 0px 0px 0px 0px;
     }
 
-}
+    .signin-image {
+        display: none;
+    }
+    
+    .SignUp-button {
+        padding: 8px 8px 8px 8px;
+        font-size: 14px;
+    }
+    .signin-title h4{
+        font-size: 24px;
+    }
 
+}
