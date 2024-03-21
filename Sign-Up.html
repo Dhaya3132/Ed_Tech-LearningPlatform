@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-EdTech.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="signin-title">
+            <h4><span>Ed</span>Tech<span>.</span></h4>
+            <div>
+                <button class="SignUp-button">
+                    SignIn
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div>
+                <h5 class="title-signin">SignUp</h5>
+                <button class="signin-button">
+                    SignUp with Google
+                </button>
+
+                <form action="">
+                    <input type="text" placeholder="Enter your Name" name="name" id="name">
+                    <br>
+                    <input type="email" placeholder="Enter your Email" name="email" id="email">
+                    <br>
+                    <input type="password" placeholder="Enter your Password" id="Password_validate">
+                </form>
+                <a href="">Already have an account?SignIn</a>
+                <br>
+                <button class="submit">SignUp</button>
+            </div>
+            <div>
+                <img src="img/bwink_edu_02_single_02.jpg" class="signin-image">
+            </div>
+
+        </div>
+    </section>
+
+
+    <script>
+        const validate = document.getElementById('Password_validate');
+        const userpattern = /^[A-Z][a-zA-Z]{6,9}$/;
+
+        validate.addEventListener('keyup', (e) => {
+            const inputvalue = validate.value;
+            console.log(inputvalue);
+            if(userpattern.test(inputvalue))
+            {
+                console.log('sucesss');
+                validate.style.border="2px solid green";
+            }
+            else{
+                console.log('fail');
+                validate.style.border="1px solid red";
+            }
+        });
+    </script>
+</body>
+
+</html>
