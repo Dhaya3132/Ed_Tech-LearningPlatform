@@ -11,3 +11,5 @@ bar_icon.addEventListener('click',(e)=>
 xmark.addEventListener('click',(e)=>{
    sidebar.style.display='none';
 });
+
+

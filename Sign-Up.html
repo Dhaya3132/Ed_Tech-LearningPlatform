@@ -28,16 +28,18 @@
                     SignUp with Google
                 </button>
 
-                <form action="">
+                <form class="SignUp_form">
                     <input type="text" placeholder="Enter your Name" name="name" id="name">
                     <br>
                     <input type="email" placeholder="Enter your Email" name="email" id="email">
                     <br>
-                    <input type="password" placeholder="Enter your Password" id="Password_validate">
+                    <input type="password" placeholder="Enter your Password" id="Password_validate" name="password">
+
+                    <a href="">Already have an account?SignIn</a>
+                    <br>
+                    <button class="submit" id="SignUp" type="submit">SignUp</button>
+
                 </form>
-                <a href="">Already have an account?SignIn</a>
-                <br>
-                <button class="submit">SignUp</button>
             </div>
             <div>
                 <img src="img/bwink_edu_02_single_02.jpg" class="signin-image">
@@ -54,17 +56,17 @@
         validate.addEventListener('keyup', (e) => {
             const inputvalue = validate.value;
             console.log(inputvalue);
-            if(userpattern.test(inputvalue))
-            {
+            if (userpattern.test(inputvalue)) {
                 console.log('sucesss');
-                validate.style.border="2px solid green";
+                validate.style.border = "2px solid green";
             }
-            else{
+            else {
                 console.log('fail');
-                validate.style.border="1px solid red";
+                validate.style.border = "1px solid red";
             }
         });
     </script>
+    <script src="sandbox.js"></script>
 </body>
 
 </html>
